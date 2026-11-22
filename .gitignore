@@ -1,0 +1,34 @@
+# Virtual environments and Python cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Datasets and generated experiments
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+runs/
+checkpoints/
+logs/
+
+# Model artifacts / local environment
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+.env
+.env.*
+!.env.example
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
